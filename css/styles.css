@@ -26,3 +26,75 @@
     text-align: center;
     border-radius: 2rem;
 }
+
+.form-box h1 {
+    font-size: 2rem;
+    margin-bottom: 6rem;
+    color: #3c00a0;
+    position: relative;
+}
+
+.form-box h1::after {
+    content: '';
+    width: 1.875rem;
+    height: 0.25rem;
+    border-radius: 0.188rem;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -0.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input-field {
+    background: #eaeaea;
+    margin: 0.938rem 0;
+    border-radius: 0.188rem;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 1.125rem 0.938rem;
+}
+
+.input-field i {
+    margin-left: 0.938rem;
+    color: #999;
+}
+
+form p {
+    text-align: left;
+    font-size: 0.813rem;
+}
+
+form p a {
+    text-decoration: none;
+    color: #3c00a0;
+}
+
+.btn-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-field button {
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: #fff;
+    height: 2.5rem;
+    border-radius: 1.2rem;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.input-group {
+    height: 17.5rem;
+}
