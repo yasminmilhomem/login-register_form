@@ -49,9 +49,12 @@
 .input-field {
     background: #eaeaea;
     margin: 0.938rem 0;
-    border-radius: 0.188rem;
+    border-radius: 0.25rem;
     display: flex;
     align-items: center;
+    max-height: 4rem;
+    transition: max-height 0.5s;
+    overflow: hidden;
 }
 
 input {
@@ -93,6 +96,11 @@ form p a {
     outline: 0;
     cursor: pointer;
     transition: background 1s;
+}
+
+.btn-field button.disabled {
+    background: #eaeaea;
+    color: #555;
 }
 
 .input-group {
