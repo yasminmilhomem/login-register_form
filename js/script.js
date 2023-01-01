@@ -5,7 +5,7 @@ let title = document.getElementById("title");
 
 signInBtn.onclick = function(){
     nameField.style.maxHeight = "0";
-    title.innerHTML = "Sign In";
+    title.innerHTML = "Log In";
     signUpBtn.classList.add("disabled");
     signInBtn.classList.remove("disabled");
 }
